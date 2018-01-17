@@ -1,0 +1,6 @@
+RewriteEngine On
+
+RewriteCond %{SERVER_PORT} 80
+
+RewriteRule ^(.*)$ https://vet.parametaleros.com/$1 [R,L]
+

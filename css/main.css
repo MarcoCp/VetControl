@@ -1,0 +1,137 @@
+html{
+	min-height: 100%;
+	position: relative;
+}
+
+
+/*Ventana de validacion*/
+
+#body-validate{
+	background-image: url("https://auth.gfx.ms/16.000.27593.7/images/Backgrounds/0.jpg?x=f5a9a9531b8f4bcc86eabb19472d15d5");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#row-validate{
+	height: 100vh;		
+}
+.form-validate label{
+	color: #ffffff;
+}
+form{
+	padding: 10px;
+	border-radius: 0;
+	color: #495057;
+}
+table{
+	color: #495057;
+	height: 25vh;
+}
+thead{
+	color: #369F47;
+}
+.list-group{
+	width: 100% !important;
+}
+.navbar{
+	padding: 0;
+}
+
+body{
+	background-color: #F1F8F2;
+	color: #369F47;
+}
+
+/*Header*/
+nav h1{
+	color: #ffffff;
+}
+nav a:hover{
+	text-decoration: none;
+}
+header{
+	background-image: url("https://r4.res.office365.com/owa/prem/16.2041.3.2448553/resources/themes/wrld/images/0/headerbgmaing2.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-bottom: 1%;
+}
+.list-group-item.active{
+	color: #495057;
+    background-color: #B1D8B7;
+    border-color: #B1D8B7;
+    border-radius: 0;
+    font-weight: bold;
+    font-size: larger;
+    border-right: solid #369F47 5px;
+}
+.list-group-item{
+	background-color: transparent;
+    border: none;
+    border-radius: 0;
+    padding-left: 20%;
+}
+
+.list-group-item-action{
+	background-color: #b1d8b780 !important;
+    font-size: large !important;
+}
+
+.col-md-3{
+	padding-left: 0;
+	padding-right: 0;
+}
+.col-md-9{
+	border-left: solid #369F47 2px;
+}
+a{
+	color: #369F47;
+	text-decoration: none;
+}
+a:hover{
+	color: #369F47;
+	text-decoration: none;
+}
+.btn{
+	background-color: #369F47;
+	border-color: #369F47 !important;
+	border-radius: 0 !important;
+}
+.btn:hover{
+	background-color: #ffffff;
+	border-color: #ffffff;
+	color: #369F47;
+	border-radius: 0;
+}
+.card,.card-header{
+	border-radius: 0 !important;
+}
+.form-control:focus{
+	border-color: #B1D8B7;
+}
+
+p.lead{
+	color: #495057;
+}
+p{
+	color: #495057;
+}
+.my-4{
+	border: solid 0.2px #369F47;
+}
+footer{
+	color: #ffffff;
+	background-color: #369F47;
+	position: absolute !important;
+    bottom: 0;
+}
+footer label{
+	padding-top: 8px;
+}
+footer label a{
+	color: #ffffff;
+	padding-top: 8px;
+}footer label a:hover{
+	color: #ffffff;
+	font-size: 18px;	
+}
